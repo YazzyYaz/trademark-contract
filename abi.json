@@ -1,0 +1,125 @@
+[
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "phrase",
+				"type": "string"
+			}
+		],
+		"name": "checkTradeMark",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "bytes32"
+			}
+		],
+		"name": "trademarkRegistry",
+		"outputs": [
+			{
+				"name": "phrase",
+				"type": "string"
+			},
+			{
+				"name": "authorName",
+				"type": "string"
+			},
+			{
+				"name": "timestamp",
+				"type": "uint256"
+			},
+			{
+				"name": "proof",
+				"type": "bytes32"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "phrase",
+				"type": "string"
+			}
+		],
+		"name": "phraseProof",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bytes32"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "phrase",
+				"type": "string"
+			}
+		],
+		"name": "getTradeMarkData",
+		"outputs": [
+			{
+				"name": "document",
+				"type": "string"
+			},
+			{
+				"name": "authorName",
+				"type": "string"
+			},
+			{
+				"name": "timestamp",
+				"type": "uint256"
+			},
+			{
+				"name": "proof",
+				"type": "bytes32"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "document",
+				"type": "string"
+			},
+			{
+				"name": "author",
+				"type": "string"
+			}
+		],
+		"name": "registerTradeMark",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
