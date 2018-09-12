@@ -1,8 +1,6 @@
 pragma solidity 0.4.19;
 
 
-//import "./StringAsKey.sol";
-
 contract TrademarkRegistration {
     struct TradeMark {
         string phrase;
