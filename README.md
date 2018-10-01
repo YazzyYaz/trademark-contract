@@ -1,4 +1,4 @@
-# Ethereum Classic Smart Contract Repository
+![ETC Phoenix](BG-Phoenix-Green-Partial.svg) #Ethereum Classic Smart Contract Repository
 
 This is a repository for deploying an example Ethereum Classic Trademark Registration smart contract.
 A Medium guide for building and deploying the smart contract is available [here](https://medium.com/@yazanator).
