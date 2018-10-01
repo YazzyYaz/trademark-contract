@@ -1,8 +1,9 @@
-# ETC Smart Contract Repository
+# Ethereum Classic Smart Contract Repository
 
-This is a repository for deploying an example
-Ethereum Classic smart contract.
+This is a repository for deploying an example Ethereum Classic Trademark Registration smart contract.
+A Medium guide for building and deploying the smart contract is available [here](https://medium.com/@yazanator).
 
+A version is already deployed on the ETC Blockchain.
 In order to test it out, use the following address for Ethereum Classic: `0xef19343bc5Cb97af300CfA9d29b574A33eB81e00`
 
 In MyCrypto.com, paste the following abi.json found on the root project directory into the text area.
