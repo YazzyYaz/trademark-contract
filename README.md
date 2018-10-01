@@ -3,7 +3,7 @@
 # Ethereum Classic Smart Contract Repository
 
 This is a repository for deploying an example Ethereum Classic Trademark Registration smart contract.
-A Medium guide for building and deploying the smart contract is available [here](https://medium.com/@yazanator).
+A Medium guide for building and deploying the smart contract is available [here](https://medium.com/ethereum-classic/adventures-in-classical-ether-38d576a9bdff).
 
 A version is already deployed on the ETC Blockchain.
 In order to test it out, use the following address for Ethereum Classic: `0xef19343bc5Cb97af300CfA9d29b574A33eB81e00`
